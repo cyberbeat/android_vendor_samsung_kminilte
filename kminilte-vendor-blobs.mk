@@ -42,8 +42,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kminilte/proprietary/lib/egl/libGLESv2_mali.so:system/lib/egl/libGLESv2_mali.so \
     vendor/samsung/kminilte/proprietary/lib/libMali.so:system/lib/libMali.so \
     vendor/samsung/kminilte/proprietary/lib/libExynosIPService.so:system/lib/libExynosIPService.so \
-    vendor/samsung/kminilte/proprietary/lib/hw/hwcomposer.exynos3.so:system/lib/hw/hwcomposer.exynos3.so \
-    vendor/samsung/kminilte/proprietary/lib/hw/gralloc.exynos3.so:system/lib/hw/gralloc.exynos3.so \
+    vendor/samsung/kminilte/proprietary/lib/libdisplay.so:system/lib/libdisplay.so \
     vendor/samsung/kminilte/proprietary/lib/libdisplaymodule.so:system/lib/libdisplaymodule.so \
     vendor/samsung/kminilte/proprietary/lib/libExynosHWCService.so:system/lib/libExynosHWCService.so \
     vendor/samsung/kminilte/proprietary/lib/libhdmimodule.so:system/lib/libhdmimodule.so \
@@ -54,7 +53,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kminilte/proprietary/lib/libmpp.so:system/lib/libmpp.so \
     vendor/samsung/kminilte/proprietary/lib/libhwcutilsmodule.so:system/lib/libhwcutilsmodule.so \
     vendor/samsung/kminilte/proprietary/lib/libvirtualdisplay.so:system/lib/libvirtualdisplay.so \
-    vendor/samsung/kminilte/proprietary/lib/hw/keystore.exynos3470.so:system/lib/hw/keystore.exynos3470.so \
     vendor/samsung/kminilte/proprietary/bin/lpm:system/bin/lpm \
     vendor/samsung/kminilte/proprietary/lib/libmaet.so:system/lib/libmaet.so \
     vendor/samsung/kminilte/proprietary/lib/libsxqk_skia.so:system/lib/libsxqk_skia.so \
@@ -125,7 +123,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kminilte/proprietary/lib/libExynosOMX_Resourcemanager.so:system/lib/libExynosOMX_Resourcemanager.so \
     vendor/samsung/kminilte/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/samsung/kminilte/proprietary/lib/omx/libOMX.Exynos.AVC.Decoder.so:system/lib/omx/libOMX.Exynos.AVC.Decoder.so \
-    vendor/samsung/kminilte/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so:system/lib/omx/libOMX.Exynos.AVC.Encoder.so \
     vendor/samsung/kminilte/proprietary/lib/omx/libOMX.Exynos.MP3.Decoder.so:system/lib/omx/libOMX.Exynos.MP3.Decoder.so \
     vendor/samsung/kminilte/proprietary/lib/omx/libOMX.Exynos.MPEG4.Decoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Decoder.so \
     vendor/samsung/kminilte/proprietary/lib/omx/libOMX.Exynos.MPEG4.Encoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Encoder.so \
